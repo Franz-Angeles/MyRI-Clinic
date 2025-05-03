@@ -2,5 +2,26 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.5",
     "tailwindcss": "^4.1.5"
-  }
+  },
+  "name": "myri-clinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./view/style/index.css -o ./view/style/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franz-Angeles/MyRI-Clinic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Franz-Angeles/MyRI-Clinic/issues"
+  },
+  "homepage": "https://github.com/Franz-Angeles/MyRI-Clinic#readme"
 }
