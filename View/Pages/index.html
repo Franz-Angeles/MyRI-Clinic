@@ -8,12 +8,27 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="flex items-center justify-center w-lvw h-lvh">
-    <h1 class="krona primary-bg py-5 text-white text-6xl">myRI Clinic</h1>
-    <button
-      class="poppins rounded-lg p-5 flex gap-x-5 text-2xl poppins border-1 text-white primary-bg"
+    <main
+      class="gap-5 border-1 p-[10px] flex flex-col justify-center w-[18%] items-center"
     >
-      Submit
-      <img src="../assets/icons/check-icon.svg" alt="" />
-    </button>
+      <div>
+        <h1 class="text-center text-[40px] mb-[8px]">MyRi Clinic</h1>
+        <h2 class="text-center mb-[30px] text-[20px]">
+          Rosario Institute Clinic
+        </h2>
+      </div>
+
+      <input
+        class="border-1 p-[8px] rounded-lg w-[100%]"
+        type="text"
+        placeholder="USERNAME"
+      />
+      <input
+        class="border-1 p-[8px] rounded-lg w-[100%]"
+        type="text"
+        placeholder="PASSWORD"
+      />
+      <button class="border-1 w-[80%] p-[8px] mt-3 rounded-lg">SIGN IN</button>
+    </main>
   </body>
 </html>
