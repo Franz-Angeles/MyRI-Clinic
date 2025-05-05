@@ -7,8 +7,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11"
+  },
   "scripts": {
+    "format": "prettier --write .",
     "dev": "npx @tailwindcss/cli -i ./view/style/index.css -o ./view/style/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
