@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../style/output.css" rel="stylesheet" />
+    <link href="../style/index.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Medical Form</title>
+  </head>
+  <body>
+    <section class="md:sm:ml-24 lg:ml-72 md:h-dvh xl:lg:ml-82">
+      <section class="relative py-7.5 pt-12">
+        <h1 class="krona uppercase bg-white lg:ml-12 px-5 inline z-20 text-3xl">
+          Medical form
+        </h1>
+        <hr class="absolute z-[-1] w-full top-17" />
+      </section>
+      <!-- Userinput here full name birth day ........ -->
+      <section
+        class="poppins flex flex-wrap px-3 uppercase [&>section]:basis-52 md:[&>section]:mx-0 [&>section]:mx-auto md:gap-5 gap-y-7"
+      >
+        <section class="relative">
+          <label
+            id="label"
+            class="absolute text-nowrap inline top-0 bg-white ml-2 px-1 leading-1"
+            for="name"
+            >full name</label
+          >
+          <input
+            id="name"
+            class="border-1 py-2.5 w-full px-4.5 rounded-lg"
+            type="text"
+          />
+        </section>
+        <section class="relative">
+          <label
+            id="label"
+            class="absolute text-nowrap inline top-0 bg-white ml-2 px-1 leading-1"
+            for="grade"
+            >Grade & section</label
+          >
+          <input
+            id="grade"
+            class="border-1 py-2.5 w-full px-4.5 rounded-lg"
+            type="text"
+          />
+        </section>
+        <section class="relative">
+          <label
+            id="label"
+            class="absolute text-nowrap inline top-0 bg-white ml-2 px-1 leading-1"
+            for="birth"
+            >birthday</label
+          >
+          <input
+            id="name"
+            class="border-1 py-2.5 w-full px-4.5 rounded-lg"
+            type="date"
+          />
+        </section>
+        <section class="relative">
+          <label
+            id="label"
+            class="absolute text-nowrap inline top-0 bg-white ml-2 px-1 leading-1"
+            for="age"
+            >age</label
+          >
+          <input
+            id="age"
+            class="border-1 py-2.5 w-full px-4.5 rounded-lg"
+            type="number"
+          />
+        </section>
+        <section class="relative">
+          <label
+            id="label"
+            class="absolute text-nowrap inline top-0 bg-white ml-2 px-1 leading-1"
+            for="height"
+            >HEIGHT ( FEET / INCHES )</label
+          >
+          <input
+            id="height"
+            class="border-1 py-2.5 w-full px-4.5 rounded-lg"
+            type="number"
+          />
+        </section>
+        <section class="relative">
+          <label
+            id="label"
+            class="absolute text-nowrap inline top-0 bg-white ml-2 px-1 leading-1"
+            for="weight"
+            >WEIGHT ( lbs )</label
+          >
+          <input
+            id="weight"
+            class="border-1 py-2.5 w-full px-4.5 rounded-lg"
+            type="number"
+          />
+        </section>
+        <section class="relative">
+          <label
+            id="label"
+            class="absolute text-nowrap inline top-0 bg-white ml-2 px-1 leading-1"
+            for="address"
+            >address</label
+          >
+          <input
+            id="address"
+            class="border-1 py-2.5 w-full px-4.5 rounded-lg"
+            type="text"
+          />
+        </section>
+        <section class="relative">
+          <label
+            id="label"
+            class="absolute text-nowrap inline top-0 bg-white ml-2 px-1 leading-1"
+            for="parent"
+            >parent / guardian</label
+          >
+          <input
+            id="number"
+            class="border-1 py-2.5 w-full px-4.5 rounded-lg"
+            type="text"
+          />
+        </section>
+        <section class="relative">
+          <label
+            id="label"
+            class="absolute text-nowrap inline top-0 bg-white ml-2 px-1 leading-1"
+            for="number"
+            >contact no#</label
+          >
+          <input
+            id="number"
+            class="border-1 py-2.5 w-full px-4.5 rounded-lg"
+            type="text"
+          />
+        </section>
+      </section>
+
+      <!--medical here full name birth day ........ -->
+      <section class="relative py-7.5 pt-12">
+        <h1
+          class="krona uppercase bg-white lg:ml-12 px-5 inline z-20 md:text-lg"
+        >
+          STUDENT MEDICAL HISTORY
+        </h1>
+        <hr class="absolute z-[-1] w-full top-15" />
+      </section>
+      <section
+        class="poppins flex items-center flex-col uppercase gap-y-5 pb-5 [&>section]:p-5 border-b-1 [&>section]:leading-3 md:justify-evenly md:flex-row"
+      >
+        <section
+          class="[&>article]:flex [&>article]:flex-col [&>article]:gap-y-3 [&>article]:items-center flex gap-5 md:col-start-1"
+        >
+          <h1 class="font-semibold">asthma</h1>
+          <article class="">
+            <label for="yes">yes</label>
+            <input id="yes" type="radio" />
+          </article>
+          <article>
+            <label for="no">no</label>
+            <input id="no" type="radio" />
+          </article>
+          <article>
+            <label for="mild">mild</label>
+            <input id="mild" type="radio" />
+          </article>
+          <article>
+            <label for="moderate">moderate</label>
+            <input id="moderate" type="radio" />
+          </article>
+          <article>
+            <label for="severe">severe</label>
+            <input id="severe" type="radio" />
+          </article>
+        </section>
+        <div class="hidden md:block border-l-1 h-32"></div>
+        <section
+          class="[&>article]:flex [&>article]:flex-col [&>article]:gap-y-3 [&>article]:items-center flex gap-5 md:col-start-1"
+        >
+          <h1 class="font-semibold">EPILEPSY</h1>
+          <article class="">
+            <label for="yes">yes</label>
+            <input id="yes" type="radio" />
+          </article>
+          <article>
+            <label for="no">no</label>
+            <input id="no" type="radio" />
+          </article>
+          <article>
+            <label for="mild">mild</label>
+            <input id="mild" type="radio" />
+          </article>
+          <article>
+            <label for="moderate">moderate</label>
+            <input id="moderate" type="radio" />
+          </article>
+          <article>
+            <label for="severe">severe</label>
+            <input id="severe" type="radio" />
+          </article>
+        </section>
+      </section>
+      <section class="space-y-5 poppins uppercase p-5">
+        <article class="flex gap-5">
+          <h1 class="font-semibold">EPILEPSY</h1>
+          <article class="space-x-1.5">
+            <label for="yes">yes</label>
+            <input id="yes" type="radio" />
+            <label for="no">no</label>
+            <input id="no" type="radio" />
+          </article>
+        </article>
+
+        <article>
+          <input
+            class="border-b-1 focus:outline-0 py-3 w-full"
+            placeholder="TYPE IF STUDENT HAVE FOOD ALLERGIES / LIST FOODS ALLERGIC REACTION"
+            id="mild"
+            type="text"
+          />
+        </article>
+      </section>
+
+      <section class="space-y-5 poppins uppercase p-5">
+        <article class="flex gap-5">
+          <h1 class="font-semibold">life-threatening insect allergy</h1>
+          <article class="space-x-1.5">
+            <label for="yes">yes</label>
+            <input id="yes" type="radio" />
+            <label for="no">no</label>
+            <input id="no" type="radio" />
+          </article>
+        </article>
+
+        <article>
+          <input
+            class="border-b-1 focus:outline-0 py-3 w-full"
+            placeholder="IF STUDENT ALLERGIC TO INSECTS BITES, PLEASE LIST INSECTS"
+            id="mild"
+            type="text"
+          />
+        </article>
+      </section>
+      <button
+        class="bg-primary poppins place-self-center mt-5 w-1/5 justify-center cursor-pointer text-white px-5 py-3 flex gap-x-3 rounded-lg"
+      >
+        <p>sumbit</p>
+        <img src="../assets/icons/check-icon.svg" alt="check-icon" />
+      </button>
+    </section>
+  </body>
+</html>
