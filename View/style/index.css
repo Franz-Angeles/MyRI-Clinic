@@ -18,3 +18,13 @@
 .bg-secondary {
   background-color: #030841;
 }
+
+.custom-hover:hover img {
+  filter: invert(0);
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.custom-hover:hover p {
+  color: white;
+}
