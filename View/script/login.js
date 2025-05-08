@@ -1,5 +1,5 @@
 const signIn = document.getElementById("signIn-btn");
 
 signIn.addEventListener("click", () => {
-  window.location = "../components/navbar.html";
+  window.location = "../pages/visitor.php";
 });

@@ -1,15 +1,7 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Visitor</title>
-    <link href="../style/output.css" rel="stylesheet" />
-    <link href="../style/index.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body>
-    <main>
+<?php
+include ('../components/body.php');
+include ('../components/navbar.php');
+?>
       <section class="md:sm:ml-24 lg:ml-72 md:h-dvh xl:lg:ml-82">
         <section class="relative py-7.5 pt-12">
           <h1 class="krona uppercase bg-white ml-12 px-5 inline z-20 text-4xl">
@@ -17,7 +9,6 @@
           </h1>
           <hr class="absolute z-[-1] w-full top-17" />
         </section>
-
         <section
           class="px-8.5 gap-3.5 uppercase flex justify-center flex-wrap lg:flex-nowrap min-[200px]:w-[90%]"
         >
@@ -89,7 +80,10 @@
         <section class="relative py-7.5 mt-5">
           <hr class="absolute z-[-1] w-full bottom-0" />
         </section>
+        <!-- visitor list components >>>>>>>>> -->
+        <?php
+        include ('../components/visitorlist.php')
+        ?>
       </section>
-    </main>
   </body>
 </html>

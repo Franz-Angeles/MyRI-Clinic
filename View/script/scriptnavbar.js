@@ -5,10 +5,10 @@ let isVisible = false;
 
 menuBtn.addEventListener("click", () => {
   if (isVisible) {
-    SideBar.classList.add("translate-x-[230px]");
+    SideBar.classList.add("translate-x-[50rem]");
     isVisible = false;
   } else {
-    SideBar.classList.remove("translate-x-[230px]");
+    SideBar.classList.remove("translate-x-[50rem]");
     isVisible = true;
   }
 });
