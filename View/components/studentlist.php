@@ -18,7 +18,6 @@
         <td>fkboy</td>
         <td>dennis rhodmar</td>
       </tr>
-   
     </tbody>
   </table>
 </main>
